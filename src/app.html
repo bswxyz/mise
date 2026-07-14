@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script>
+		document.documentElement.classList.add('js');
+		try {
+			var t = localStorage.getItem('mise-theme');
+			if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+		} catch (e) {}
+	</script>
+	<meta name="theme-color" content="#f5f1e8" />
+	<meta name="color-scheme" content="light dark" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Manrope:wght@400..800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M16 48 h68 a5 5 0 0 1 5 6 c-5 20-18 32-39 32 s-34-12-39-32 a5 5 0 0 1 5-6 z' fill='%23e8503a'/%3E%3Ccircle cx='36' cy='30' r='8' fill='%234a7c3f'/%3E%3Ccircle cx='58' cy='22' r='7' fill='%23e8503a'/%3E%3Ccircle cx='74' cy='34' r='6' fill='%23d9a441'/%3E%3C/svg%3E" />
+	%sveltekit.head%
+</head>
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+</html>
