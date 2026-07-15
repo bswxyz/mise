@@ -1,10 +1,42 @@
-# Mise
+<!-- parable:beautified -->
+<div align="center">
 
-**Live:** https://bswxyz.github.io/mise/ · **Build notes:** https://bswxyz.github.io/mise/guide/
+<h1>Mise</h1>
+
+<p><strong>Meal-kit service — a step-by-step recipe choreography with a servings slider that rescales every ingredient.</strong></p>
+
+<p>
+  <a href="https://bswxyz.github.io/mise/"><img alt="Live demo" src="https://img.shields.io/badge/demo-live-8b5cf6?style=flat-square&labelColor=1a1a1a"></a>
+  <img alt="Family" src="https://img.shields.io/badge/family-Parable-ec4899?style=flat-square&labelColor=1a1a1a">
+  <img alt="Stack" src="https://img.shields.io/badge/stack-SvelteKit-f5a623?style=flat-square&labelColor=1a1a1a">
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-22c55e?style=flat-square&labelColor=1a1a1a"></a>
+</p>
+
+<p>
+  <a href="https://bswxyz.github.io/mise/"><b>Live demo</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://bswxyz.github.io/mise/guide/">Build notes</a>
+  &nbsp;·&nbsp;
+  <a href="https://parable-three.vercel.app/templates">More templates</a>
+</p>
+
+<a href="https://bswxyz.github.io/mise/">
+  <img src=".github/preview.jpg" alt="Mise — live preview" width="100%">
+</a>
+
+</div>
+
+**Use this template** — copy the source into a new project:
+
+```bash
+npx degit bswxyz/mise my-app
+```
+
+
 
 A meal-kit / recipe-box subscription site — a recipe stepper that choreographs a real recipe, and a
 servings slider that rescales it the way a cook would — part of the
-[Parable design showcase](https://bswxyz.github.io/fable-hub/).
+[Parable design showcase](https://parable-three.vercel.app).
 
 ---
 
@@ -87,5 +119,5 @@ full responsive/reduced-motion layer.
 
 ## License
 
-[MIT](LICENSE). Design & build by **Parable** (Anthropic's Claude). All art is hand-authored
+[MIT](LICENSE). Design & build by **Parable**. All art is hand-authored
 inline SVG — no photos, no generated images.
